@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Portal - Upload Announcement</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Admin Portal</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact Us</a>
+      <a href="donate.html">Donate</a>
+    </nav>
+  </header>
+
+  <section id="announcement-upload-section">
+    <h2>Upload New Announcement</h2>
+
+    <form id="announcement-form" enctype="multipart/form-data">
+      <label for="announcement-text">Announcement Text:</label>
+      <textarea id="announcement-text" name="announcement-text" rows="4" placeholder="Write your announcement here..." required></textarea>
+
+      <label for="announcement-type">Select Announcement Type:</label>
+      <select id="announcement-type" name="announcement-type">
+        <option value="text">Text Only</option>
+        <option value="image">Text & Image</option>
+        <option value="video">Text & Video</option>
+        <option value="all">Text, Image & Video</option>
+      </select>
+
+      <div id="media-upload">
+        <label for="image-upload">Upload Image (if applicable):</label>
+        <input type="file" id="image-upload" name="image" accept="image/*">
+        <div id="image-preview" style="margin-top: 10px;"></div>
+
+        <label for="video-upload">Upload Video (if applicable):</label>
+        <input type="file" id="video-upload" name="video" accept="video/*">
+      </div>
+
+      <button type="submit">Upload Announcement</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Strive Foundation. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

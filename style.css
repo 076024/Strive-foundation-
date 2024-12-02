@@ -1,0 +1,104 @@
+
+
+/* General styles for the website */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #2d3a3f;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+header nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+#hero {
+  background-color: #2d3a3f;
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+}
+
+#hero .cta-button {
+  background-color: #f4a261;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+#hero .cta-button:hover {
+  background-color: #e76f51;
+}
+
+/* Form Styling */
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+form input, form select, form textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #2d3a3f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #4f5d6e;
+}
+
+footer {
+  background-color: #2d3a3f;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+#announcements-container {
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.announcement {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.announcement img {
+  max-width: 100%;
+  height: auto;
+}
+
+.announcement video {
+  width: 100%;
+  height: auto;
+}

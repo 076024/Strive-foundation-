@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Donate - Strive Foundation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Donate to Charity</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact Us</a>
+      <a href="donate.html">Donate</a>
+    </nav>
+  </header>
+
+  <section id="donate-section">
+    <h2>Your Support Makes a Difference</h2>
+    <p>Donate today and help those in need.</p>
+
+    <form id="donation-form">
+      <label for="donation-amount">Amount to Donate:</label>
+      <input type="number" id="donation-amount" name="donation-amount" min="1" required>
+
+      <label for="donation-method">Select Payment Method:</label>
+      <select id="donation-method" name="donation-method" required>
+        <option value="credit-card">Credit Card</option>
+        <option value="paypal">PayPal</option>
+      </select>
+
+      <button type="submit">Donate Now</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Strive Foundation. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
